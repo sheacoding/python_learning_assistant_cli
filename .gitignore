@@ -90,3 +90,4 @@ config/api_keys.json
 # Reports (not for version control)
 docs/SESSION_REPORT.md
 docs/TIME_MANAGEMENT_REPORT.md
+CLAUDE.md

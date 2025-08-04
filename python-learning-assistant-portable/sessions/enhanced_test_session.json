@@ -1,0 +1,104 @@
+{
+  "session_info": {
+    "start_time": "2025-07-13T13:36:35.508603+08:00",
+    "end_time": "2025-07-13T13:36:36.718068+08:00",
+    "duration_seconds": 1.209465,
+    "duration_formatted": "1秒",
+    "timezone": "UTC+08:00",
+    "created_by": "Python学习助手 v1.0.0",
+    "format_version": "1.0"
+  },
+  "session_stats": {
+    "total_messages": 6,
+    "user_messages": 3,
+    "assistant_messages": 3,
+    "commands_executed": 1,
+    "code_executions": 1,
+    "topics_covered": [
+      "introduction",
+      "variables"
+    ],
+    "difficulty_distribution": {
+      "beginner": 2
+    },
+    "average_response_time": 0.10051033333333333
+  },
+  "history": [
+    {
+      "role": "user",
+      "content": "你好，我想学习Python",
+      "timestamp": "2025-07-13T13:36:35.508744+08:00",
+      "timestamp_formatted": "2025-07-13 13:36:35",
+      "elapsed_seconds": 0.000168,
+      "metadata": {
+        "topic": "introduction",
+        "difficulty": "beginner",
+        "session_elapsed": "0秒",
+        "message_time": "13:36:35"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "你好！很高兴帮助你学习Python",
+      "timestamp": "2025-07-13T13:36:35.609194+08:00",
+      "timestamp_formatted": "2025-07-13 13:36:35",
+      "elapsed_seconds": 0.10067,
+      "metadata": {
+        "response_type": "greeting",
+        "session_elapsed": "0秒",
+        "message_time": "13:36:35"
+      }
+    },
+    {
+      "role": "user",
+      "content": "什么是变量？",
+      "timestamp": "2025-07-13T13:36:35.709795+08:00",
+      "timestamp_formatted": "2025-07-13 13:36:35",
+      "elapsed_seconds": 0.201244,
+      "metadata": {
+        "topic": "variables",
+        "difficulty": "beginner",
+        "session_elapsed": "0秒",
+        "message_time": "13:36:35"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Python变量是存储数据的容器",
+      "timestamp": "2025-07-13T13:36:35.810338+08:00",
+      "timestamp_formatted": "2025-07-13 13:36:35",
+      "elapsed_seconds": 0.301821,
+      "metadata": {
+        "response_type": "explanation",
+        "topic": "variables",
+        "session_elapsed": "0秒",
+        "message_time": "13:36:35"
+      }
+    },
+    {
+      "role": "user",
+      "content": "/run x = 10; print(x)",
+      "timestamp": "2025-07-13T13:36:35.910939+08:00",
+      "timestamp_formatted": "2025-07-13 13:36:35",
+      "elapsed_seconds": 0.402412,
+      "metadata": {
+        "command": true,
+        "code_execution": true,
+        "session_elapsed": "0秒",
+        "message_time": "13:36:35"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "代码执行结果: 10",
+      "timestamp": "2025-07-13T13:36:36.011477+08:00",
+      "timestamp_formatted": "2025-07-13 13:36:36",
+      "elapsed_seconds": 0.502952,
+      "metadata": {
+        "response_type": "code_result",
+        "session_elapsed": "0秒",
+        "message_time": "13:36:36"
+      }
+    }
+  ]
+}

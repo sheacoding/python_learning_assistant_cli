@@ -1,0 +1,144 @@
+{
+  "session_info": {
+    "start_time": "2025-07-13T14:08:05.926652+08:00",
+    "end_time": "2025-07-13T14:09:40.264912+08:00",
+    "duration_seconds": 94.33826,
+    "duration_formatted": "1分钟34秒",
+    "timezone": "UTC+08:00",
+    "created_by": "Python学习助手 v1.0.0",
+    "format_version": "1.0"
+  },
+  "session_stats": {
+    "total_messages": 11,
+    "user_messages": 6,
+    "assistant_messages": 5,
+    "commands_executed": 2,
+    "code_executions": 1,
+    "topics_covered": [
+      "introduction",
+      "variables",
+      "strings"
+    ],
+    "difficulty_distribution": {
+      "beginner": 1
+    },
+    "average_response_time": 3.509091
+  },
+  "history": [
+    {
+      "role": "user",
+      "content": "你好，我想学习Python",
+      "timestamp": "2024-01-15T10:30:05.123456",
+      "metadata": {
+        "session_type": "learning",
+        "topic": "introduction"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "你好！很高兴帮助你学习Python。Python是一门非常适合初学者的编程语言。我们可以从基础语法开始学习。",
+      "timestamp": "2024-01-15T10:30:08.234567",
+      "metadata": {
+        "response_type": "greeting",
+        "contains_suggestion": true
+      }
+    },
+    {
+      "role": "user",
+      "content": "什么是Python变量？",
+      "timestamp": "2024-01-15T10:32:15.345678",
+      "metadata": {
+        "topic": "variables",
+        "difficulty": "beginner"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Python变量是用来存储数据的容器。你可以把变量想象成一个盒子，里面可以放不同类型的东西：\n\n```python\nname = \"小明\"  # 字符串变量\nage = 18      # 整数变量\nheight = 1.75 # 浮点数变量\nis_student = True  # 布尔变量\n```\n\n变量的特点：\n1. 不需要声明类型\n2. 可以随时改变值\n3. 名称要有意义",
+      "timestamp": "2024-01-15T10:32:18.456789",
+      "metadata": {
+        "response_type": "explanation",
+        "contains_code": true,
+        "topic": "variables"
+      }
+    },
+    {
+      "role": "user",
+      "content": "/run name = '张三'; print(f'你好，{name}！')",
+      "timestamp": "2024-01-15T10:35:20.567890",
+      "metadata": {
+        "command": true,
+        "code_execution": true,
+        "topic": "variables"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "🚀 执行代码:\n┌──────────────────────────────────────────────────┐\n│ name = '张三'; print(f'你好，{name}！')\n└──────────────────────────────────────────────────┘\n\n📤 输出结果:\n你好，张三！",
+      "timestamp": "2024-01-15T10:35:22.678901",
+      "metadata": {
+        "response_type": "code_result",
+        "execution_successful": true
+      }
+    },
+    {
+      "role": "user",
+      "content": "太棒了！能给我更多关于字符串的例子吗？",
+      "timestamp": "2024-01-15T10:37:45.789012",
+      "metadata": {
+        "follow_up": true,
+        "topic": "strings",
+        "enthusiasm": "high"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "当然可以！字符串是Python中非常重要的数据类型。这里有一些常用的字符串操作：\n\n```python\n# 字符串连接\nfirst_name = \"张\"\nlast_name = \"三\"\nfull_name = first_name + last_name\nprint(full_name)  # 输出：张三\n\n# 字符串格式化\nage = 25\nmessage = f\"我叫{full_name}，今年{age}岁\"\nprint(message)\n\n# 字符串方法\ntext = \"Hello World\"\nprint(text.upper())     # 转大写：HELLO WORLD\nprint(text.lower())     # 转小写：hello world\nprint(text.replace(\"World\", \"Python\"))  # 替换：Hello Python\n```\n\n你想试试运行这些例子吗？",
+      "timestamp": "2024-01-15T10:37:50.890123",
+      "metadata": {
+        "response_type": "explanation",
+        "contains_code": true,
+        "topic": "strings",
+        "includes_question": true
+      }
+    },
+    {
+      "role": "user",
+      "content": "/save",
+      "timestamp": "2024-01-15T11:15:25.901234",
+      "metadata": {
+        "command": true,
+        "session_action": "save"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "✅ 会话已保存到: sessions/python_learning_session_20240115_103000.json\n\n📊 本次学习总结：\n• 学习时长：45分钟\n• 涉及主题：Python入门、变量、字符串\n• 代码执行：1次\n• 互动次数：9次\n\n继续加油学习！👍",
+      "timestamp": "2024-01-15T11:15:30.012345",
+      "metadata": {
+        "response_type": "session_summary",
+        "session_stats": {
+          "duration_minutes": 45,
+          "topics_covered": [
+            "introduction",
+            "variables",
+            "strings"
+          ],
+          "code_executions": 1,
+          "interactions": 9
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "ls",
+      "timestamp": "2025-07-13T14:09:33.609873+08:00",
+      "timestamp_formatted": "2025-07-13 14:09:33",
+      "elapsed_seconds": 87.683293,
+      "metadata": {
+        "session_elapsed": "1分钟27秒",
+        "message_time": "14:09:33"
+      }
+    }
+  ]
+}

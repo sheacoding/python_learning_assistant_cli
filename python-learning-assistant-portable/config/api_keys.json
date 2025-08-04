@@ -1,0 +1,5 @@
+{
+  "moonshot_api_key": "",
+  "openai_api_key": "",
+  "note": "请在此处填入您的API密钥。如果留空，程序将从系统环境变量中读取。"
+}

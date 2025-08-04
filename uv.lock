@@ -626,6 +626,15 @@ wheels = [
 ]
 
 [[package]]
+name = "pyfuze"
+version = "2.7.1"
+source = { git = "https://github.com/TanixLu/pyfuze.git#a703d5d6db5747293837270768ef3ddb2f6fd281" }
+dependencies = [
+    { name = "click", version = "8.1.8", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.10'" },
+    { name = "click", version = "8.2.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.10'" },
+]
+
+[[package]]
 name = "pygments"
 version = "2.19.2"
 source = { registry = "https://pypi.org/simple" }
@@ -658,6 +667,7 @@ version = "1.0.0"
 source = { editable = "." }
 dependencies = [
     { name = "openai" },
+    { name = "pyfuze" },
     { name = "requests" },
 ]
 
@@ -675,6 +685,7 @@ requires-dist = [
     { name = "flake8", marker = "extra == 'dev'", specifier = ">=6.0.0" },
     { name = "mypy", marker = "extra == 'dev'", specifier = ">=1.0.0" },
     { name = "openai", specifier = ">=1.0.0" },
+    { name = "pyfuze", git = "https://github.com/TanixLu/pyfuze.git" },
     { name = "pytest", marker = "extra == 'dev'", specifier = ">=7.0.0" },
     { name = "requests", specifier = ">=2.28.0" },
 ]

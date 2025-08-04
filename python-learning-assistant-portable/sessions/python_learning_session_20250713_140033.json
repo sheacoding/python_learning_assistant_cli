@@ -1,0 +1,22 @@
+{
+  "session_info": {
+    "start_time": "2025-07-13T13:59:51.382558+08:00",
+    "end_time": "2025-07-13T14:00:33.789271+08:00",
+    "duration_seconds": 42.406713,
+    "duration_formatted": "42秒",
+    "timezone": "UTC+08:00",
+    "created_by": "Python学习助手 v1.0.0",
+    "format_version": "1.0"
+  },
+  "session_stats": {
+    "total_messages": 0,
+    "user_messages": 0,
+    "assistant_messages": 0,
+    "commands_executed": 0,
+    "code_executions": 0,
+    "topics_covered": [],
+    "difficulty_distribution": {},
+    "average_response_time": null
+  },
+  "history": []
+}

@@ -1,0 +1,67 @@
+{
+  "session_info": {
+    "start_time": "2025-07-13T15:42:21.375588+08:00",
+    "end_time": "2025-07-13T15:44:26.502078+08:00",
+    "duration_seconds": 125.12649,
+    "duration_formatted": "2分钟5秒",
+    "timezone": "UTC+08:00",
+    "created_by": "Python学习助手 v1.0.0",
+    "format_version": "1.0"
+  },
+  "session_stats": {
+    "total_messages": 4,
+    "user_messages": 2,
+    "assistant_messages": 2,
+    "commands_executed": 0,
+    "code_executions": 0,
+    "topics_covered": [],
+    "difficulty_distribution": {},
+    "average_response_time": 6.684359000000001
+  },
+  "history": [
+    {
+      "role": "user",
+      "content": "如何快速学习agent搭建",
+      "timestamp": "2025-07-13T15:42:49.782996+08:00",
+      "timestamp_formatted": "2025-07-13 15:42:49",
+      "elapsed_seconds": 28.407517,
+      "metadata": {
+        "session_elapsed": "28秒",
+        "message_time": "15:42:49"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "我来帮你快速掌握Agent搭建的核心技能！让我先搜索最新的Agent开发框架和最佳实践。",
+      "timestamp": "2025-07-13T15:42:56.452730+08:00",
+      "timestamp_formatted": "2025-07-13 15:42:56",
+      "elapsed_seconds": 35.077256,
+      "metadata": {
+        "session_elapsed": "35秒",
+        "message_time": "15:42:56"
+      }
+    },
+    {
+      "role": "user",
+      "content": "继续",
+      "timestamp": "2025-07-13T15:43:35.823822+08:00",
+      "timestamp_formatted": "2025-07-13 15:43:35",
+      "elapsed_seconds": 74.448286,
+      "metadata": {
+        "session_elapsed": "1分钟14秒",
+        "message_time": "15:43:35"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "我来帮你快速掌握Agent搭建的核心技能！让我先搜索最新的Agent开发框架和最佳实践。",
+      "timestamp": "2025-07-13T15:43:42.522806+08:00",
+      "timestamp_formatted": "2025-07-13 15:43:42",
+      "elapsed_seconds": 81.147285,
+      "metadata": {
+        "session_elapsed": "1分钟21秒",
+        "message_time": "15:43:42"
+      }
+    }
+  ]
+}

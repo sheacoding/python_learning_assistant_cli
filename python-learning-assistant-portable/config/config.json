@@ -1,0 +1,12 @@
+{
+  "model": "kimi-k2-0711-preview",
+  "temperature": 0.3,
+  "max_tokens": 2048,
+  "max_history": 50,
+  "code_timeout": 10,
+  "auto_save_sessions": true,
+  "timezone": "Asia/Shanghai",
+  "time_format": "%Y-%m-%d %H:%M:%S",
+  "session_filename_format": "python_learning_session_%Y%m%d_%H%M%S.json",
+  "system_prompt": "你是一个专业的Python编程学习助手。你的任务是帮助用户学习Python编程知识，提供清晰易懂的解释和实用的代码示例。\n\n请遵循以下原则：\n1. 使用简洁明了的中文回答\n2. 提供可运行的代码示例\n3. 解释代码的工作原理\n4. 推荐最佳实践\n5. 根据用户水平调整解释深度\n6. 鼓励动手实践\n7. 提供相关的学习资源\n\n当用户询问Python相关问题时，请：\n- 先给出简要回答\n- 提供代码示例（如果适用，代码示例前加上指定utf-8编码）\n- 解释关键概念\n- 建议进一步学习的方向\n\n如果用户需要代码执行，使用code_runner工具来演示。"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "python-learning-assistant",
+  "version": "1.0.0",
+  "description": "Python学习助手 - 智能终端应用",
+  "author": "Python学习助手团队",
+  "entry_point": "run.py",
+  "icon": null,
+  "console": true,
+  "include_files": [
+    "src/",
+    "config/",
+    "sessions/",
+    "examples/",
+    "docs/",
+    "requirements.txt",
+    "README.md"
+  ],
+  "exclude_files": [
+    "__pycache__/",
+    "*.pyc",
+    ".git/",
+    ".venv/",
+    "build/",
+    "dist/"
+  ],
+  "hidden_imports": [
+    "openai",
+    "requests",
+    "json",
+    "datetime",
+    "pathlib",
+    "subprocess",
+    "importlib.util",
+    "time_manager",
+    "api_key_manager"
+  ],
+  "optimize": true,
+  "strip": false,
+  "upx": false
+}
